@@ -11,7 +11,7 @@ public class UsersJdbcDao {
 	JdbcTemplate jdbcTemplate;
 	
 	public int addPerson(String fname, String lname, String email, String phone, String password) {
-		String addQuery = "insert into users(firstname, lastname, email, phonenumber, password) values(?,?,?,?,?)";
+		String addQuery = "insert into users(firstName, LastName, Email, PhoneNo, Password) values(?,?,?,?,?)";
 		return jdbcTemplate.update(addQuery, fname, lname, email, phone, password);
 	}
 
