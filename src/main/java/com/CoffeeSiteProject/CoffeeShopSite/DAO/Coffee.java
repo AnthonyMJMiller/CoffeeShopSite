@@ -1,4 +1,4 @@
-package com.CoffeeSiteProject.CoffeeShopSite.entity;
+package com.CoffeeSiteProject.CoffeeShopSite.DAO;
 
 public class Coffee {
 	
