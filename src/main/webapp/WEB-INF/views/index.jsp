@@ -11,10 +11,8 @@
 </head>
 <body>
 	<h1>This is Grand Coffee Shop!</h1>
-	<a href="registry">Sign Up</a><br><br>
+	<a href="register">Sign Up</a><br><br>
 	
-	
-	<p>Please feel free to browse through our fine selection of locally made coffee. Local coffee, from local growers.</p><br>
 	
 	<div class="container">
 
